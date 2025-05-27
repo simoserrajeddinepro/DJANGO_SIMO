@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Django Day 2</title>
+</head>
+<body>
+    <h1>Hello, {{ name|title }}!</h1>
+
+    {% if name == "mohammed" %}
+        <p>Welcome back, master of Django 🧙‍♂️</p>
+    {% else %}
+        <p>Nice to meet you, {{ name }}.</p>
+    {% endif %}
+</body>
+</html>
